@@ -9,25 +9,34 @@
   padding: 20px;
   background: #fff;
   margin: auto;
+  display: flex;
+
+ 
+ 
+ 
+ 
 }
 .ui.cards > .card > .image > img {
   height: 100%;
   max-width: 100%;
-  width: auto;
+  width: 100%;
 }
 .ui.cards > .card > .content > .header {
-  height: 48px;
+  height: 120px;
   overflow: hidden;
   margin-bottom: 5px;
+ flex-direction:column;
+gap :2rem;
+  
 }
 .ui.cards > .card > .content > .description {
-  height: 36px;
+  height: 60px;
   margin-bottom: 0px;
   overflow: hidden;
 }
 .ui.cards > .card .meta.price {
   margin-bottom: 5px;
-  font-size: 18px;
+  font-size: 21px;
   color: #333;
   font-weight: 600;
 }
@@ -35,23 +44,31 @@
 .ui.cards > .card .meta.price > a {
   font-size: 1.3rem;
   color: #222;
+  font-weight: 600;
 }
 
 .ui.menu.fixed {
   height: 60px;
   padding-top: 15px;
-}
+  
+  }
 
 .ui.grid.container {
   margin-top: 45px;
 }
-
+.uis.grid.container{
+  margin-top: 45px;
+}
 .ui.grid > .row {
   background: #fff;
+ 
+  
 }
 .ui.grid > .row > .column.lp {
   padding: 20px 40px 20px 20px;
-  align-self: flex-start !important;
+   align-self: flex-start !important;
+  
+  width: 100%;
 }
 .ui.grid > .row > .column.rp {
   padding: 20px 20px 20px 40px;
@@ -76,10 +93,12 @@
 
 .column.rp h1 {
   color: #333;
+  
 }
 .column.rp p {
   font-size: 18px;
   color: #777;
+ 
 }
 .ui.placeholder.segment .column .button,
 .ui.placeholder.segment .column .field,
@@ -87,7 +106,57 @@
 .ui.placeholder.segment .column > .ui.input {
   background-color: #ff3e6c;
   border: 1px solid #ff3e6c;
-  color: #fff;
+   color: #fff;
   font-size: 18px;
-  margin-left: 0;
+
 }
+ 
+
+
+
+
+
+  
+ 
+  
+  
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+   
+  
+
+
+  
+  
+   
+  
+    
+  
+
+
+
+
+
+
+
+
+  
+ 
+ 
+ 
+ 
+
+ 

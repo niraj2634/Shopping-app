@@ -6,8 +6,13 @@ const ProductComponent = () => {
   const products = useSelector((state) => state.allProducts.products);
   const renderList = products.map((product) => {
     const { id, title, image, price, category } = product;
+
+    var w = window.innerWidth;
+    if(w<=600? <div className="eight wide column" key={id}></div>:w>=600&&w<=900?<div className="six wide column" key={id}></div>:<div className="four wide column" key={id}></div>)
     return (
-      <div className="four wide column" key={id}>
+
+    <div>
+     
         <Link to={`/product/${id}`}>
           <div className="ui link cards">
             <div className="card">
